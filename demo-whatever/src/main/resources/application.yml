@@ -1,0 +1,9 @@
+spring:
+  application.name: whatever
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+  sleuth:
+    messaging:
+      kafka:
+        enabled: true
